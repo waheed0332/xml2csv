@@ -2,6 +2,11 @@
 Converts XML files into csv file, this script is capable of converting extremely nested xml files.
 
 This script utilize power of multiprocessing to convert huge data in less time.
+
+## Requirements
+Install required libraries using following command before running script.
+`pip install -r requirements.txt`
+
 ## Usage
 
 ### Convert single xml to csv file
@@ -12,3 +17,10 @@ This script utilize power of multiprocessing to convert huge data in less time.
 
 ### Convert bulk xmls to csv
 `python xml2csv.py -b ./xml-samples/ -csv out.csv`
+
+###### Arguments
+```
+-f Input XML document's filename.
+-b Path to the folder containing xml files.
+-csv Name of output csv file.
+```
